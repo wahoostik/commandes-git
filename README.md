@@ -30,3 +30,13 @@ git commit -m"<description>"
 ``` shell
 git add * ou git add .
 ```
+
+ * Pour lier le repository local au distant :
+``` shell
+git remote add origin <url https du repository distant>
+```
+
+ * Faire un commit :
+``` shell
+git push origin master
+```
